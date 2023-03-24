@@ -1,1 +1,1 @@
-# atcoder-libraly
+# atcoder-library
