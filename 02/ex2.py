@@ -55,6 +55,11 @@ a_list = [[1, 2, 3, 4],
           [9, 1, 2, 3]]
 a = np.array(a_list)
 
+#axis0 = 縦軸　縦軸に沿ってみていく
+print("-1",np.max(a_list,axis=0))
+#-1 [9 6 7 8]
+
+
 
 print("----------------")
 print(a[0])
@@ -80,6 +85,7 @@ print(a[[0,1]])
 print(a[np.array([0])])
 print(a[np.array([0,1])])
 
+print("-2---------------")
 #これが意味不明、縦方向を守って第一引数が行指定
 #わかった
 print(a[[0],[1]])
